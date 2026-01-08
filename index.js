@@ -8,8 +8,7 @@ const https = require('https');
 const GITHUB_USER = "umaranit";
 const GITHUB_REPO = "Copilot-Skill-Accelerator";
 const BRANCH = "main";
-const BASE_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${BRANCH}`;
-//https://raw.githubusercontent.com/${GITHUB_USER}/C${GITHUB_REPO}/refs/heads/main/.github/copilot-instructions.md
+const BASE_URL = 'https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${BRANCH}';
 // The manifest of files to be injected into the customer's project
 const filesToDownload = [
   { remote: '.github/copilot-instructions.md', local: '.github/copilot-instructions.md' },
