@@ -1,0 +1,1 @@
+You have access to a suite of expert tools in .github/skills/. Whenever a user asks for specialized tasks like code reviews, architectural planning, or testing, you must first read the SKILL.md in the relevant sub-folder and follow its specific protocol.

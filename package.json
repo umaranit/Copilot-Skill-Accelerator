@@ -1,0 +1,7 @@
+{
+  "name": "copilot-skill-kit",
+  "version": "1.0.0",
+  "bin": {
+    "copilot-init": "./index.js"
+  }
+}

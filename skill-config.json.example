@@ -1,0 +1,8 @@
+{
+  "project_name": "Project XYZ",
+  "coding_standard": "Airbnb JavaScript Style",
+  "linter_preference": "ESLint", 
+  "auto_format_on_save": true,
+  "forbidden_patterns": ["var", "console.log"],
+  "custom_lint_rules": "No more than 2 empty lines between functions."
+}
