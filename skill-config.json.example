@@ -1,8 +1,11 @@
 {
-  "project_name": "Project XYZ",
-  "coding_standard": "Airbnb JavaScript Style",
-  "linter_preference": "ESLint", 
-  "auto_format_on_save": true,
-  "forbidden_patterns": ["var", "console.log"],
-  "custom_lint_rules": "No more than 2 empty lines between functions."
+  "project_name": "My Accelerator Project",
+  "primary_language": "Detect automatically",
+  "coding_standard": "Standard (e.g., Airbnb for JS, PEP8 for Python)",
+  "linter_preference": "Default for language", 
+  "forbidden_patterns": ["var", "console.log", "print", "todo"],
+  "custom_rules": [
+    "Ensure all functions have descriptive comments.",
+    "Maximum nesting depth of 3 levels."
+  ]
 }
