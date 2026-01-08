@@ -5,8 +5,8 @@ const path = require('path');
 const https = require('https');
 
 // --- Configuration: REPLACE WITH YOUR REPO DETAILS ---
-const GITHUB_USER = "YOUR_GITHUB_USERNAME";
-const GITHUB_REPO = "YOUR_REPO_NAME";
+const GITHUB_USER = "umaranit";
+const GITHUB_REPO = "Copilot-Skill-Accelerator";
 const BRANCH = "main";
 const BASE_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${BRANCH}`;
 
